@@ -31,6 +31,13 @@ namespace AbstractFactory
             Console.WriteLine("Chocolate que rico!");
         }
     }
+    internal class Chocolate : IHotDrink
+    {
+        public void Consume()
+        {
+            Console.WriteLine("Chocolatefvgfdgfd que rico!");
+        }
+    }
 
     public interface IHotDrinkFactory
     {
@@ -61,6 +68,14 @@ namespace AbstractFactory
         {
             Console.WriteLine($"Chocolate Caliente: {amount} ml");
             return new HotChocolate();
+        }
+    }
+    internal class ChocolateFactory : IHotDrinkFactory
+    {
+        public IHotDrink Prepare(int amount)
+        {
+            Console.WriteLine($"Chocolate: {amount} ml");
+            return new Chocolate();
         }
     }
 
