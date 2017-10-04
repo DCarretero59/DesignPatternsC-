@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5D639A58-8763-4004-808A-3E7312883229}</ProjectGuid>
+    <ProjectGuid>{6C1553BC-66AE-47F9-8745-6A532771F34F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CompositeDesignPattern</RootNamespace>
-    <AssemblyName>CompositeDesignPattern</AssemblyName>
+    <RootNamespace>FlyweightFormattedText</RootNamespace>
+    <AssemblyName>FlyweightFormattedText</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

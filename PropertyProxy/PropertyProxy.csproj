@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5D639A58-8763-4004-808A-3E7312883229}</ProjectGuid>
+    <ProjectGuid>{C259CB3C-CFE5-46F9-A5AD-2D98DE3427FB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CompositeDesignPattern</RootNamespace>
-    <AssemblyName>CompositeDesignPattern</AssemblyName>
+    <RootNamespace>PropertyProxy</RootNamespace>
+    <AssemblyName>PropertyProxy</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
